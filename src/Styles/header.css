@@ -1,22 +1,17 @@
-@font-face {
-  font-family: "NPSfontBold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2")
-    format("woff2");
-  font-style: normal;
-}
-
 /* --------------- header --------------- */
-.wrap {
-  background: gray;
+.Header_wrap {
   width: 100vw;
-  height: 40px;
+  max-width: 1920px;
+  height: 45px;
   opacity: 0.6;
+  position: absolute;
+  z-index: 1;
 }
 
-a {
+.Header_wrap a {
   display: block;
-  padding: 10px;
-  transition: 0.2s;
+  padding: 15px;
+  font-size: 15px;
 }
 
 /* --------------- nav --------------- */
